@@ -24,14 +24,14 @@ class student:
       self.books = books
       self.laptop = laptop
 
-student_1 = student("jimmy", "pen", "iPad")
+student_1 = student("jimmy", "pen", "book")
 student_2 = student("josh", "pencil", "laptop")
 
 #4.create a video game character class function
 
 class gameCharacter:
-  def __init__(self, armour, shield, weapon, health):
-    self.armour = armour
+  def __init__(self, name, shield, weapon, health):
+    self.name = name
     self.shield = shield
     self.weapon = weapon
     self.health = health
@@ -40,3 +40,19 @@ class gameCharacter:
     return
 
   
+# method FPS games
+# Tapping trigger to shoot
+
+#Method for fighting games
+# Holding block to reload stamina
+
+
+  def block(self,):
+
+
+    def normalAttack(self,hitConnects, opponents):
+      if hitConnects:
+         opponent.health -=.power
+    
+
+#Method (Any) Sports games
