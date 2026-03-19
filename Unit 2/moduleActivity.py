@@ -2,7 +2,7 @@
 # Please write your answer as a string                                  
  "A collection of classes that are ready to use"
 
-#2. Inside your unit 2 folder, create a new documaned called 
+#2. Inside your unit 2 folder, create a new document called 
 # userModule.py. Then, create a class that creates 
 # a car model class. Your class should
 # have 3 properties and 2 methods.
