@@ -21,3 +21,6 @@ sAmericanCountry = requests.get('https://restcountries.com/v3.1/name/columbia')
 asianCountry = requests.get('https://restcountries.com/v3.1/name/SouthKorea')
 
 print(africanCountry[0])
+
+# Data = variable
+# Current weather = object
