@@ -6,12 +6,6 @@ response = requests.get(url)
 print(response.json())
 
 
-import requests
-
-url = 'https://pokeapi.co/api/v2/pokemon-species/aegislash'
-reepose = requests.get(url)
-
-print(response.poke())
 
 
 
