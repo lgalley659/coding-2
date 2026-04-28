@@ -17,7 +17,7 @@ print(data.json())
 # variables returning data for eatch type of country.
 
 africanCountry = requests.get('https://restcountries.com/v3.1/name/nigeria')
-sAmericanCountry = requests.get('https://restcountries.com/v3.1/name/columbia')
+AmericanCountry = requests.get('https://restcountries.com/v3.1/name/columbia')
 asianCountry = requests.get('https://restcountries.com/v3.1/name/SouthKorea')
 
 print(africanCountry[0])

@@ -14,7 +14,7 @@ response = requests.get(query)
 print(response)
 print(response.json())
 
- 
+if
 if response == 200:
     data= response.json()
 
@@ -30,3 +30,7 @@ if response == 200:
 else:
     print("data not found")
 
+
+
+req= str(300)
+url_3 'https://http.cat'= req
