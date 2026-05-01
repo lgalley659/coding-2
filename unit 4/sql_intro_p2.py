@@ -26,12 +26,12 @@ cursor.execute('''
 
 cursor.execute('''
     INSERT INTO computers(model, color, hasWebcam, memory, price)
-    VALUES('apple m4', 'blue', True, 8, 1500)
+    VALUES('Asus', 'white', True, 8, 1500)
               ''')
 
 cursor.execute('''
     INSERT INTO computers(model, color, hasWebcam, memory, price)
-    VALUES('apple m1', 'red', True, 8, 1500)
+    VALUES('Asus', 'white', True, 8, 1500)
               ''')
 
 
@@ -40,7 +40,8 @@ cursor.execute('''
     UPDATE computers
     SET color = 'yellow
     WHERE id = 3           
-              ''')
-        
+    SET color = 'yellow'         
+               ''')
+
 connect.commit()
 connect.close()
