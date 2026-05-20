@@ -1,0 +1,39 @@
+import sqlite3
+
+def getData():
+    connect = sqlite3.connect('dog_data.db')
+    cursor = connect.cursor()
+    cursor.execute('''
+        CREATE TABLE dog(
+        id INTEGER PRIMARY KEY,
+        breed TEXT,
+        image_url TEXT    
+        )    ''')
+
+
+    connect.commit()
+    connect.close()
+
+
+import requests
+
+url = 'https://dog.ceo/dog-api/'
+response = requests.get(url)
+
+print(response.json())
+
+query = "https://dog.ceo/dog-api/"
+response = requests.get(query)
+print(response)
+print(response.json())
+
+
+response = requests.get(url)
+if response == 200:
+    return response.json()    
+else:
+    return none
+
+def main():
+    db_connection = setup_database()
+    user_breed = input("Enter dog breed")

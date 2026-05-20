@@ -24,7 +24,7 @@ def getData():
 
 getData()
 
-def getSongleData():
+def getSingleData():
     computerSearch = input("what computer are you looking please type an ID name")
 
-    connect = sqlite3
+    connect = _sqlite3
